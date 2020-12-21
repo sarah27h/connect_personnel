@@ -1,0 +1,83 @@
+.header {
+  &__nav-items &__nav-links &__nav-link {
+    padding: 3px 20px;
+    font-size: 0.8rem;
+  }
+
+  &__nav-secondary {
+    position: absolute;
+    left: 0;
+    top: $navbar-height;
+    width: 100%;
+    background-color: #1c1740;
+  }
+
+  &__nav-secondary-link {
+    font-size: 1rem;
+  }
+
+  &__nav-secondary-link:hover {
+    background-color: #6baac1;
+  }
+
+  &__nav-secondary-items
+    &__nav-secondary-links:first-child
+    &__nav-secondary-link:hover {
+    background-color: #73ba9d;
+  }
+  &__nav-secondary-items
+    &__nav-secondary-links:last-child
+    &__nav-secondary-link:hover {
+    background-color: #6b83c1;
+  }
+}
+
+// to override default nav-link color for large & x-large screens
+.header__nav-secondary-items
+  .header__nav-secondary-links
+  .header__nav-secondary-link {
+  color: #fafafa;
+  padding: 1rem 5.5rem;
+  font-weight: 700;
+}
+
+// toggler
+.navbar-close-icon {
+  color: $white;
+  font-size: 1.9rem;
+}
+
+@media (max-width: 990px) {
+  .header {
+    &__navbar-collapse {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #1b1740;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 3rem 2rem;
+    }
+
+    &__nav-secondary {
+      position: static;
+    }
+
+    &__nav-link {
+      border: none;
+      text-align: left;
+    }
+  }
+
+  // to override default nav-link color when mobile menu is open
+  .header__nav-items .header__nav-links .header__nav-link,
+  .header__nav-secondary-items
+    .header__nav-secondary-links
+    .header__nav-secondary-link {
+    color: #fafafa;
+    padding: 16px 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+}

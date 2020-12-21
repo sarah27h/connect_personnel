@@ -1,0 +1,74 @@
+// regular font
+@font-face {
+  @include local-font(
+    "proxima Nova",
+    "../../assets/fonts/Proxima-Nova-Regular.ttf",
+    400
+  );
+}
+
+// light font
+@font-face {
+  @include local-font(
+    "proxima Nova",
+    "../../assets/fonts/proxima-nova-light.ttf",
+    100
+  );
+}
+
+// bold font
+@font-face {
+  @include local-font(
+    "proxima Nova",
+    "../../assets/fonts/Proxima-Nova-Bold.otf",
+    700
+  );
+}
+
+body {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 22pt;
+}
+
+p {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 22pt;
+}
+
+h1 {
+  font-family: $main-font;
+  font-weight: 100;
+  font-size: 66pt;
+}
+
+h2 {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 54pt;
+}
+
+h3 {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 40pt;
+}
+
+h4 {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 32pt;
+}
+
+h5 {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 26pt;
+}
+
+h6 {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 20pt;
+}

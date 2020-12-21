@@ -1,0 +1,28 @@
+.header {
+  &__nav {
+    background-color: $white;
+    padding: 16px 160px;
+    height: $navbar-height;
+  }
+
+  &__logo {
+    width: 190px;
+  }
+
+  &__search {
+    font-size: 1.3rem;
+    color: #615b9b;
+  }
+
+  &__toggler {
+    color: $primary;
+    border: none;
+    z-index: 100000;
+  }
+}
+
+@media (max-width: 990px) {
+  .header__nav {
+    padding: 16px;
+  }
+}
