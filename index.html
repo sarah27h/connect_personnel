@@ -11,7 +11,7 @@
       <!-- navigation -->
       <nav
         id="main-navbar"
-        class="header__nav navbar fixed-top navbar-expand-lg navbar-light px-sm-5 py-3"
+        class="header__nav navbar fixed-top navbar-expand-lg navbar-light py-3"
       >
         <div class="container">
           <a class="navbar-brand font-weight-bold" href="#home"
@@ -63,7 +63,7 @@
                 >
               </li>
               <li
-                class="header__nav-links nav-item mx-md-2 d-none d-lg-inline d-xl-inline"
+                class="header__nav-links nav-item ml-md-2 d-none d-lg-inline d-xl-inline"
               >
                 <a
                   class="header__nav-link nav-link btn btn-outline-primary"
@@ -105,6 +105,62 @@
       <!-- navigation -->
     </header>
 
+    <section class="search">
+      <div class="container">
+        <h1 class="search__heading">
+          Find the right <span class="font-weight-bold">connect</span>ion.
+        </h1>
+        <form class="search__form mt-5 px-2 d-none d-lg-block">
+          <div class="form-row align-items-center justify-content-between">
+            <div
+              class="form-row align-items-center col justify-content-between"
+            >
+              <div class="form-group col-md-4 mb-2">
+                <label for="keyword" class="mr-sm-2 sr-only">Keyword</label>
+                <input
+                  type="text"
+                  class="search__input form-control form-control-lg rounded-0"
+                  id="keyword"
+                  placeholder="Keyword"
+                />
+              </div>
+              <div class="form-group col-md-4 mb-2">
+                <label class="mr-sm-2 sr-only" for="industry">Industry</label>
+                <select
+                  class="search__input custom-select rounded-0"
+                  id="industry"
+                >
+                  <option selected>Industry</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4 mb-2">
+                <label class="mr-sm-2 sr-only" for="location">Location</label>
+                <select
+                  class="search__input custom-select rounded-0"
+                  id="location"
+                >
+                  <option selected>Location</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group col-auto mb-2">
+              <button
+                type="submit"
+                class="btn btn-outline-primary search__btn btn-lg ml-auto d-block"
+              >
+                Search Jobs
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
   </body>

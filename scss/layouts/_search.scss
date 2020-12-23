@@ -1,0 +1,43 @@
+.search {
+  padding: 75px 0;
+  background: url("../img/search/search_bg.png") no-repeat left top;
+  background-size: cover;
+
+  // background: url("../img/hero/search_watermark.png") left bottom no-repeat,
+  // linear-gradient(to right, #50489a, #231a61);
+  // background-repeat: no-repeat, no-repeat;
+  // background-position: left top, left bottom;
+  // background-size: cover, contain;
+
+  &__heading {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__input {
+    border: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    height: 48px;
+    padding-left: 30px;
+  }
+
+  &__btn {
+    font-size: 1rem;
+    color: #fff;
+    height: 48px;
+  }
+}
+
+@media (max-width: 990px) {
+  .search {
+    padding: 65px 0;
+    background: url("../img/search/search_mobile_bg.png") no-repeat left top;
+    background-size: cover;
+
+    &__heading {
+      font-size: 1.9rem;
+    }
+  }
+}

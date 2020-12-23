@@ -7,7 +7,7 @@
   &__nav-secondary {
     position: absolute;
     left: 0;
-    top: $navbar-height;
+    top: $navbar-height-mobile;
     width: 100%;
     background-color: #1c1740;
   }
@@ -37,7 +37,7 @@
   .header__nav-secondary-links
   .header__nav-secondary-link {
   color: #fafafa;
-  padding: 1rem 5.5rem;
+  padding: 1rem 7rem;
   font-weight: 700;
 }
 

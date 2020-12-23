@@ -37,6 +37,11 @@ $navbar-light-hover-color: $white;
 $btn-font-weight: 700;
 $navbar-nav-link-padding-x: 1.3rem;
 $btn-border-width: 2px;
+$container-max-width: 1440px;
+// $input-font-weight: 600;
+// $input-font-size-lg: 1rem;
+$custom-select-color: #493481;
+$input-placeholder-color: #493481;
 
 //
 // Bring in Bootstrap
@@ -62,13 +67,13 @@ $btn-border-width: 2px;
 // @import "bootstrap/scss/code";
 @import "bootstrap/scss/grid";
 // @import "bootstrap/scss/tables";
-// @import "bootstrap/scss/forms";
+@import "bootstrap/scss/forms";
 @import "bootstrap/scss/buttons";
 @import "bootstrap/scss/transitions";
 @import "bootstrap/scss/dropdown";
 // @import "bootstrap/scss/button-group";
 // @import "bootstrap/scss/input-group"; // Requires forms
-// @import "bootstrap/scss/custom-forms";
+@import "bootstrap/scss/custom-forms";
 @import "bootstrap/scss/nav";
 @import "bootstrap/scss/navbar"; // Requires nav
 // @import "bootstrap/scss/card";
@@ -103,10 +108,17 @@ $btn-border-width: 2px;
 //
 // Custom styles
 //
-
 body {
   // padding: 3rem;
-  padding-top: 100px;
+  padding-top: $navbar-height;
+  // background-image: url("../img/image3048.png");
+}
+
+@media screen and (max-width: 990px) {
+  body {
+    // padding: 3rem;
+    padding-top: $navbar-height-mobile;
+  }
 }
 
 // Style Bootstrap icons
@@ -124,3 +136,4 @@ body {
 //
 @import "layouts/header";
 @import "layouts/navigation";
+@import "layouts/search";
