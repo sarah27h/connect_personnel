@@ -1,0 +1,55 @@
+@media (max-width: 990px) {
+  // header, navbar
+  .header {
+    &__nav {
+      padding: 16px;
+    }
+
+    &__navbar-collapse {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #1b1740;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 3rem 2rem;
+    }
+
+    &__nav-secondary {
+      position: static;
+    }
+
+    &__nav-link {
+      border: none;
+      text-align: left;
+    }
+
+    // to override default nav-link color when mobile menu is open
+    .header__nav-items .header__nav-links .header__nav-link,
+    .header__nav-secondary-items
+      .header__nav-secondary-links
+      .header__nav-secondary-link {
+      color: #fafafa;
+      padding: 16px 0;
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+  }
+
+  // search section
+  .search {
+    padding: 65px 0;
+    background: url("../img/search/search_mobile_bg.png") no-repeat left top;
+    background-size: cover;
+
+    &__heading {
+      font-size: 1.9rem;
+    }
+  }
+
+  // industry section
+  .industry__item {
+    padding: 65px 50px 40px;
+  }
+}

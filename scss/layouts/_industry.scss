@@ -1,0 +1,56 @@
+.industry {
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 90px 50px 60px;
+    color: #e8e8e8;
+    background-size: 200px;
+
+    &-heading {
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: $white;
+    }
+
+    &-med {
+      background: url("../../assets/img/industry/1.png") #73ba9d no-repeat;
+      background-position: right -30px bottom 25px;
+      background-size: 200px;
+    }
+
+    &-eng {
+      background: url("../../assets/img/industry/3.png") #6baac1 no-repeat;
+      background-position: right -73px bottom 25px;
+      background-size: 200px;
+    }
+
+    &-con {
+      background: url("../../assets/img/industry/2.png") #6b83c1 no-repeat;
+      background-position: right -13px bottom 25px;
+      background-size: 200px;
+    }
+  }
+
+  &__item-text {
+    margin-bottom: 50px;
+  }
+
+  &__item-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: auto;
+    align-self: self-end;
+    height: 48px;
+    border: 1px solid $white;
+    font-size: 0.9rem;
+    color: $white;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $white;
+      color: $primary;
+      border: none;
+    }
+  }
+}

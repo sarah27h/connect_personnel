@@ -46,38 +46,3 @@
   color: $white;
   font-size: 1.9rem;
 }
-
-@media (max-width: 990px) {
-  .header {
-    &__navbar-collapse {
-      display: flex;
-      flex-wrap: wrap;
-      background-color: #1b1740;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      padding: 3rem 2rem;
-    }
-
-    &__nav-secondary {
-      position: static;
-    }
-
-    &__nav-link {
-      border: none;
-      text-align: left;
-    }
-  }
-
-  // to override default nav-link color when mobile menu is open
-  .header__nav-items .header__nav-links .header__nav-link,
-  .header__nav-secondary-items
-    .header__nav-secondary-links
-    .header__nav-secondary-link {
-    color: #fafafa;
-    padding: 16px 0;
-    font-size: 1.3rem;
-    font-weight: 700;
-  }
-}

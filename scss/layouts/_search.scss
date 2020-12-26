@@ -1,5 +1,5 @@
 .search {
-  padding: 75px 0;
+  padding: 75px 8px;
   background: url("../img/search/search_bg.png") no-repeat left top;
   background-size: cover;
 
@@ -10,7 +10,7 @@
   // background-size: cover, contain;
 
   &__heading {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fff;
     text-align: center;
   }
@@ -27,17 +27,5 @@
     font-size: 1rem;
     color: #fff;
     height: 48px;
-  }
-}
-
-@media (max-width: 990px) {
-  .search {
-    padding: 65px 0;
-    background: url("../img/search/search_mobile_bg.png") no-repeat left top;
-    background-size: cover;
-
-    &__heading {
-      font-size: 1.9rem;
-    }
   }
 }

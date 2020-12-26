@@ -42,21 +42,23 @@ $container-max-width: 1440px;
 // $input-font-size-lg: 1rem;
 $custom-select-color: #493481;
 $input-placeholder-color: #493481;
-
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1440px,
+);
+// $navbar-padding-x: 0;
 //
 // Bring in Bootstrap
 //
-
 // Option 1
 //
 // Import all of Bootstrap's CSS
-
 // @import "bootstrap/scss/bootstrap";
-
 // Option 2
 //
 // Import just the styles you need. Note that some stylesheets are required no matter what.
-
 @import "bootstrap/scss/functions"; // Required
 @import "bootstrap/scss/variables"; // Required
 @import "bootstrap/scss/mixins"; // Required
@@ -109,9 +111,8 @@ $input-placeholder-color: #493481;
 // Custom styles
 //
 body {
-  // padding: 3rem;
   padding-top: $navbar-height;
-  // background-image: url("../img/image3048.png");
+  color: $light-gray;
 }
 
 @media screen and (max-width: 990px) {
@@ -137,3 +138,5 @@ body {
 @import "layouts/header";
 @import "layouts/navigation";
 @import "layouts/search";
+@import "layouts/industry";
+@import "abstracts/mediaquery";
