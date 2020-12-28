@@ -78,7 +78,7 @@ $container-max-widths: (
 @import "bootstrap/scss/custom-forms";
 @import "bootstrap/scss/nav";
 @import "bootstrap/scss/navbar"; // Requires nav
-// @import "bootstrap/scss/card";
+@import "bootstrap/scss/card";
 // @import "bootstrap/scss/breadcrumb";
 // @import "bootstrap/scss/pagination";
 // @import "bootstrap/scss/badge";
@@ -92,7 +92,7 @@ $container-max-widths: (
 @import "bootstrap/scss/modal"; // Requires transitions
 // @import "bootstrap/scss/tooltip";
 // @import "bootstrap/scss/popover";
-// @import "bootstrap/scss/carousel";
+@import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
 @import "bootstrap/scss/utilities";
 // @import "bootstrap/scss/print";
@@ -111,6 +111,7 @@ $container-max-widths: (
 // Custom styles
 //
 body {
+  height: 3000px;
   padding-top: $navbar-height;
   color: $light-gray;
 }
@@ -139,4 +140,5 @@ body {
 @import "layouts/navigation";
 @import "layouts/search";
 @import "layouts/industry";
+@import "layouts/roles";
 @import "abstracts/mediaquery";

@@ -1,0 +1,77 @@
+.roles {
+  padding: 65px 0;
+  background: url("../../assets/img/roles/roles_watermark.png") #f5f4fc
+    no-repeat;
+  background-position: left top;
+  background-size: 424px;
+
+  &__carousel-indicators {
+    li {
+      width: 13px;
+      height: 13px;
+      border: 1px solid $secondary;
+      border-radius: 100%;
+    }
+
+    li:active,
+    .active {
+      background-color: $secondary;
+    }
+  }
+
+  &__carousel-inner {
+    padding-bottom: 90px;
+  }
+
+  &__carousel-item {
+    height: 100%;
+  }
+
+  &__heading {
+    text-transform: uppercase;
+  }
+
+  &__card {
+    padding: 30px 40px;
+    height: 100%;
+    border-radius: 1rem;
+
+    &-heading {
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: $gray-900;
+    }
+
+    &-body {
+      padding: 0;
+    }
+
+    &-title {
+      color: $primary;
+    }
+
+    &-info {
+      font-weight: 600;
+      color: $gray-700;
+    }
+
+    &-links {
+      margin-right: 25px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: #615b9b;
+      text-transform: uppercase;
+      text-decoration: underline;
+
+      &:hover {
+        color: $secondary;
+        cursor: pointer;
+      }
+    }
+
+    &-footer {
+      padding: 12px 0;
+    }
+  }
+}
