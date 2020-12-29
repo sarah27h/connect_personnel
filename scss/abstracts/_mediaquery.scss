@@ -66,4 +66,13 @@
     margin-top: 0;
     padding: 50px 25px 35px;
   }
+
+  // refer
+  .refer {
+    padding: 50px 0;
+
+    &__btn {
+      text-transform: uppercase;
+    }
+  }
 }
