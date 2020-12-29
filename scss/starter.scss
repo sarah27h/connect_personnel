@@ -111,7 +111,7 @@ $container-max-widths: (
 // Custom styles
 //
 body {
-  height: 3000px;
+  height: 7000px;
   padding-top: $navbar-height;
   color: $light-gray;
 }
@@ -141,4 +141,5 @@ body {
 @import "layouts/search";
 @import "layouts/industry";
 @import "layouts/roles";
+@import "layouts/about";
 @import "abstracts/mediaquery";

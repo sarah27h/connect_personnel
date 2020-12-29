@@ -1,0 +1,38 @@
+.about {
+  background: url(../../assets/img/about/about_landscape.png) #f5f4fc no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  &__heading {
+    margin-bottom: 15px;
+    font-size: 42px;
+  }
+
+  &__body {
+    background: $primary;
+    padding: 50px 50px 80px;
+    color: $white;
+    margin-top: 100px;
+  }
+
+  &__btn {
+    border: 1px solid #fff;
+    font-size: 0.9rem;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $white;
+      color: $primary;
+      border: none;
+    }
+  }
+}
+
+#about__body a.collapsed::after {
+  content: "More";
+}
+
+#about__body a:not(.collapsed)::after {
+  content: "Less";
+}
