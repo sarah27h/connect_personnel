@@ -25,3 +25,4 @@ import "../../node_modules/bootstrap/js/dist/carousel.js";
 // import "../../node_modules/bootstrap/js/dist/popover.js";
 
 import "./navToggle.js";
+import "./quickSearch.js";
