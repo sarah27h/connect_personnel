@@ -17,15 +17,15 @@
           <a class="navbar-brand font-weight-bold" href="#home"
             ><img
               class="header__logo d-inline-block align-top"
-              src="./assets/img/connect_personal_logo.png"
+              src="./assets/img/connect_personal_main_logo.png"
               alt="Connect Personal logo"
               loading="lazy"
           /></a>
           <i
-            class="header__search fas fa-search ml-auto mr-1 d-inline d-lg-none d-lg-none"
+            class="header__search js-header-search fas fa-search ml-auto mr-1 d-inline d-lg-none d-lg-none"
           ></i>
           <button
-            class="header__toggler navbar-toggler"
+            class="header__toggler js-header__toggler navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -63,7 +63,7 @@
                 >
               </li>
               <li
-                class="header__nav-links nav-item ml-md-2 d-none d-lg-inline d-xl-inline"
+                class="header__nav-links js-nav-search nav-item ml-md-2 d-none d-lg-inline d-xl-inline"
               >
                 <a
                   class="header__nav-link nav-link btn btn-outline-primary"
@@ -104,6 +104,60 @@
       </nav>
       <!-- navigation -->
     </header>
+
+    <!-- quick search -->
+    <div class="quick-search">
+      <form class="quick-search__form collapse">
+        <div class="form-row align-items-center justify-content-center">
+          <div
+            class="form-row col flex-column"
+          >
+            <div class="form-group col-md-12 mb-3">
+              <label for="keyword" class="mr-sm-2 sr-only">Keyword</label>
+              <input
+                type="text"
+                class="search__input form-control form-control-lg rounded-0"
+                id="keyword"
+                placeholder="Keyword"
+              />
+            </div>
+            <div class="form-group col-md-12 mb-3">
+              <label class="mr-sm-2 sr-only" for="industry">Industry</label>
+              <select
+                class="search__input custom-select rounded-0"
+                id="industry"
+              >
+                <option selected>Industry</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="form-group col-md-12 mb-3">
+              <label class="mr-sm-2 sr-only" for="location">Location</label>
+              <select
+                class="search__input custom-select rounded-0"
+                id="location"
+              >
+                <option selected>Location</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group col-md-12 mb-3 mt-3">
+            <button
+              type="submit"
+              class="btn btn-outline-primary quick-search__btn btn-lg mx-auto d-block"
+            >
+              Search Jobs
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- quick search -->
 
     <!-- search -->
     <section class="search">
@@ -554,7 +608,8 @@
     <section class="about">
       <div class="row no-gutters">
         <div class="col-lg-6 col-12 d-md-block d-sm-block d-lg-none">
-          <img class="about__img w-100 img-fluid d-md-block d-sm-block d-lg-none" src="assets/img/about/about_portrait.png" alt="Girl is using laptop">
+          <!-- <img class="about__img w-100 img-fluid d-md-block d-sm-block d-lg-none" src="assets/img/about/about_portrait.png" alt="Girl is using laptop"> -->
+          <div class="about__img"></div>
         </div>
         <div class="col-lg-5 col-12 ml-lg-auto">
           <div id="about__body" class="about__body">
@@ -585,13 +640,65 @@
               Refer a friend
             </a>
           </div>
-          <div class="col-lg-6 ml-auto col-12">
+          <div class="col-lg-6 ml-auto col-12 d-lg-block d-none">
             <img src="./assets/img/refer/refer.png" alt="three people are taking" class="refer__img w-100 img-fluid">
           </div>
         </div>
       </div>
     </section>
     <!-- refer -->
+
+    <!-- footer -->
+    <footer class="footer text-left text-lg-right">
+      <div class="container">
+
+        <div class="row align-items-center mb-4">
+          <div class="col-lg-2 col-12">
+            <img src="./assets/img/connect_personal_logo.png" alt="" class="footer__logo d-lg-block d-none">
+          </div>
+          <div class="offset-lg-3 col-lg-3 col-12">
+            <p class="footer__heading"><i class="fas fa-phone-alt"></i><span class="ml-lg-0 ml-3"> Call Medical</span></p>
+            <p class="footer__text d-lg-block d-none">Suite 1A Level 2802 Pacific Highway</p>
+            <p class="footer__text"><span class="ml-lg-0 ml-5">Gordon</span> NSW<span class="d-lg-block d-none"> 2072</span></p></p>
+          </div>
+          <div class="col-lg-4 col-12">
+            <p class="footer__heading text-break"><i class="fas fa-phone-alt"></i><span class="ml-lg-0 ml-3"> Call Engineering/Projects/Operations</span></p>
+            <p class="footer__text d-lg-block d-none">Kings Row Office Park Building 2 Level 5,</p>
+            <p class="footer__text"><span class="d-lg-block d-none">50 McDougall Street,</span> <span class="ml-lg-0 ml-5">Milton, Qld</span> <span class="d-lg-block d-none">4064</span></p>
+          </div>
+        </div>
+        <div class="row flex-lg-row flex-column-reverse align-items-center">
+          <div class="col-lg-10 col-12">
+            <div class="row flex-lg-row flex-md-column align-items-center">
+              <div class="col-lg-9 col-12 text-lg-left">
+                <p class="footer__copyright">&#169; COPYRIGHT 2021 CONNECT PERSONNEL.ALL RIGHTS RESERVED. <a href="#">YOUR PRIVACY</a></p>
+              </div>
+              <div class="col-lg-3 col-12">
+                <span class="footer__logo-secondary">SITE BY RECSITE </span> <img class="footer__logo-secondary ml-2" src="./assets/img/recsite_logo.png" alt="Connect Personal logo"
+                loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <ul class="footer__social-icons mb-5 ml-5 ml-lg-0">
+              <li class="d-inline-block py-3 fa-stack">
+                <a href="">
+                  <i class="far fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin-in  fa-stack-1x"></i>
+                </a>
+              </li>
+              <li class="d-inline-block py-3 fa-stack">
+                <a href="">
+                  <i class="far fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>

@@ -61,10 +61,18 @@
   // about
   .about {
     background: none;
-  }
-  .about__body {
-    margin-top: 0;
-    padding: 50px 25px 35px;
+
+    &__img {
+      background: url(../../assets/img/about/about_portrait.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 480px;
+    }
+
+    &__body {
+      margin-top: 0;
+      padding: 50px 25px 35px;
+    }
   }
 
   // refer
@@ -73,6 +81,34 @@
 
     &__btn {
       text-transform: uppercase;
+    }
+  }
+
+  // footer
+  .footer {
+    padding: 40px 15px;
+
+    &__heading {
+      font-size: 27px;
+    }
+
+    &__text {
+      font-size: 25px;
+    }
+
+    &__copyright {
+      margin-bottom: 16px;
+      font-size: 19px;
+    }
+  }
+
+  // quick search
+  .quick-search {
+    &__form {
+      max-width: 100%;
+      right: 0;
+      top: 100px;
+      border-radius: 0;
     }
   }
 }
