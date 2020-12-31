@@ -1,0 +1,40 @@
+.footer {
+  padding: 50px 0;
+  background-color: $main-color;
+  font-size: 16px;
+  color: #fff;
+
+  &__logo {
+    width: 335px;
+  }
+
+  &__heading {
+    font-weight: bold;
+    font-size: 18px;
+    color: #615b9b;
+  }
+
+  &__logo-secondary {
+    width: 27px;
+    vertical-align: bottom;
+  }
+
+  &__social-icons {
+    padding-left: 0;
+    font-size: 20px;
+
+    a {
+      color: $white;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  &__copyright {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+}
