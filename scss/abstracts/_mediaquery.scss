@@ -112,3 +112,11 @@
     }
   }
 }
+
+@media (min-width: 991px) and (max-width: 1158px) {
+  .header__nav-secondary-items
+    .header__nav-secondary-links
+    .header__nav-secondary-link {
+    padding: 1rem 5rem;
+  }
+}
