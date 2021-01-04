@@ -14,19 +14,22 @@
     }
 
     &-med {
-      background: url("../../assets/img/industry/1.png") #73ba9d no-repeat;
+      background: url("../../assets/img/industry/medical_watermark.png") #73ba9d
+        no-repeat;
       background-position: right -30px bottom 25px;
       background-size: 200px;
     }
 
     &-eng {
-      background: url("../../assets/img/industry/3.png") #6baac1 no-repeat;
+      background: url("../../assets/img/industry/engineering_watermark.png")
+        #6baac1 no-repeat;
       background-position: right -73px bottom 25px;
       background-size: 200px;
     }
 
     &-con {
-      background: url("../../assets/img/industry/2.png") #6b83c1 no-repeat;
+      background: url("../../assets/img/industry/consulting_watermark.png")
+        #6b83c1 no-repeat;
       background-position: right -13px bottom 25px;
       background-size: 200px;
     }

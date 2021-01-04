@@ -26,3 +26,4 @@ import "../../node_modules/bootstrap/js/dist/carousel.js";
 
 import "./navToggle.js";
 import "./quickSearch.js";
+import "./rolesCarousel.js";
