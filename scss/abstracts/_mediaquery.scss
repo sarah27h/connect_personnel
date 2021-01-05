@@ -2,7 +2,7 @@
   // header, navbar
   .header {
     &__nav {
-      padding: 16px;
+      padding: 8px 7px;
     }
 
     &__navbar-collapse {
@@ -71,7 +71,7 @@
 
     &__body {
       margin-top: 0;
-      padding: 50px 25px 35px;
+      padding: 45px 15px;
     }
   }
 
@@ -121,7 +121,7 @@
   }
 
   .footer__logo {
-    width: 285px;
+    width: 255px;
   }
 
   .footer__heading,
