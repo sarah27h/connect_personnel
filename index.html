@@ -41,7 +41,7 @@
                 loading="lazy"
             /></a>
             <i
-              class="header__search js-header-search fas fa-search ml-auto mr-1 d-inline d-lg-none d-lg-none"
+              class="header__search js-header-search fas fa-search ml-auto mr-1 d-inline d-lg-none"
             ></i>
             <button
               class="header__toggler js-header__toggler navbar-toggler"
@@ -101,15 +101,14 @@
                     >
                   </li>
                   <li class="header__nav-secondary-links nav-item">
-                    <a class="header__nav-secondary-link nav-link" href="#"
-                      >Engineering / Projects / Operations</a
-                    >
-                    <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Our industries</a>
-                      <a class="dropdown-item" href="#">browse jobs</a>
-                      <a class="dropdown-item" href="#">register & upload cv</a>
-                      <a class="dropdown-item" href="#">contact</a>
-                    </div> -->
+                    <a class="header__nav-secondary-link nav-link header__nav-secondary-dropdown" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"
+                      >Engineering/<span class="text-break">Projects/</span>Operations <i class="header__nav-secondary-dropdown-arrow fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu header__dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item header__dropdown-item" href="#">Our industries</a>
+                      <a class="dropdown-item  js-header-dropdown header__dropdown-item" href="#">browse jobs</a>
+                      <a class="dropdown-item header__dropdown-item" href="#">register & upload cv</a>
+                      <a class="dropdown-item header__dropdown-item" href="#">contact</a>
+                    </div>
                   </li>
                   <li class="header__nav-secondary-links nav-item">
                     <a class="header__nav-secondary-link nav-link" href="#"

@@ -3,7 +3,7 @@ const openToggle = document.querySelector(".navbar-toggler-icon");
 const closeToggle = document.querySelector(".navbar-close-icon");
 const headerNavbarCollapse = document.querySelector(".header__navbar-collapse");
 
-const toggleNavMobileMenu = () => {
+export const toggleNavMobileBtn = () => {
   setTimeout(function () {
     if (headerNavbarCollapse.classList.contains("show")) {
       openToggle.classList.add("d-none");
@@ -15,4 +15,4 @@ const toggleNavMobileMenu = () => {
   }, 400);
 };
 
-headerToggle.addEventListener("click", toggleNavMobileMenu);
+headerToggle.addEventListener("click", toggleNavMobileBtn);

@@ -13,16 +13,58 @@
       top: 0;
       left: 0;
       width: 100%;
-      padding: 3rem 2rem;
+      padding: 4rem 0;
+    }
+
+    &__nav-items {
+      width: 100%;
     }
 
     &__nav-secondary {
       position: static;
+
+      // i {
+      //   padding: 16px 0;
+      //   color: #fff;
+      // }
+    }
+
+    &__nav-secondary-links {
+      margin: 0.125rem -2rem 0;
+      padding: 0 2rem;
+    }
+
+    &__nav-secondary-dropdown {
+      position: relative;
+    }
+
+    &__nav-secondary-dropdown-arrow {
+      position: absolute;
+      right: 10px;
+      top: 20px;
     }
 
     &__nav-link {
       border: none;
       text-align: left;
+    }
+
+    &__dropdown-menu.show {
+      background: #28235d;
+      padding: 0;
+      margin: 0.125rem -1.5rem 0;
+      border-radius: 0;
+      border: 0;
+    }
+
+    &__dropdown-item {
+      padding: 1rem 3.5rem;
+      color: #fafafa;
+    }
+
+    &__dropdown-item:hover,
+    &__dropdown-item:focus {
+      background: #6baac1;
     }
 
     // to override default nav-link color when mobile menu is open
@@ -31,9 +73,10 @@
       .header__nav-secondary-links
       .header__nav-secondary-link {
       color: #fafafa;
-      padding: 16px 0;
-      font-size: 1.3rem;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
       font-weight: 700;
+      border-radius: 0;
     }
   }
 
