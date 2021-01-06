@@ -19,23 +19,15 @@
     }
   }
 
-  &__carousel-inner {
-    padding-bottom: 90px;
-    margin: auto;
-  }
-
-  &__carousel-item {
-    // height: 100%;
-  }
-
   &__heading {
     text-transform: uppercase;
   }
 
   &__card {
     padding: 30px 20px;
-    height: 100%;
+    min-height: 463px;
     border-radius: 1rem;
+    border: none;
 
     &-heading {
       font-size: 20px;

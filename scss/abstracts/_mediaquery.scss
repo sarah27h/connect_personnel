@@ -1,3 +1,9 @@
+@media (max-width: 541px) {
+  .roles__card {
+    min-height: 100%;
+  }
+}
+
 @media (max-width: 990px) {
   // header, navbar
   .header {
@@ -22,11 +28,6 @@
 
     &__nav-secondary {
       position: static;
-
-      // i {
-      //   padding: 16px 0;
-      //   color: #fff;
-      // }
     }
 
     &__nav-secondary-links {
@@ -99,6 +100,7 @@
   // last roles
   .roles {
     background: #f5f4fc;
+    padding: 65px 0 10px;
   }
 
   // about
