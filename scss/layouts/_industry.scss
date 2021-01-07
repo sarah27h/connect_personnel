@@ -3,12 +3,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 90px 50px 60px;
+    padding: 5.6rem 4rem 3.5rem;
     color: #e8e8e8;
     background-size: 200px;
 
     &-heading {
-      margin-bottom: 20px;
+      margin-bottom: 1.3rem;
       text-transform: uppercase;
       color: $white;
     }
@@ -36,7 +36,7 @@
   }
 
   &__item-text {
-    margin-bottom: 50px;
+    margin-bottom: 3.1rem;
   }
 
   &__item-link {

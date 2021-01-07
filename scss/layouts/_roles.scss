@@ -1,5 +1,5 @@
 .roles {
-  padding: 65px 0;
+  padding: 4rem 0;
   background: url("../../assets/img/roles/roles_watermark.png") #f5f4fc
     no-repeat;
   background-position: left top;
@@ -24,13 +24,13 @@
   }
 
   &__card {
-    padding: 30px 20px;
+    padding: 2rem 1.3rem;
     min-height: 463px;
     border-radius: 1rem;
     border: none;
 
     &-heading {
-      font-size: 20px;
+      font-size: 1.3rem;
       text-transform: uppercase;
       margin-bottom: 20px;
       color: $gray-900;
@@ -50,7 +50,7 @@
     }
 
     &-links {
-      margin-right: 25px;
+      margin-right: 1.5rem;
       font-size: 0.9rem;
       font-weight: bold;
       color: #615b9b;
@@ -64,40 +64,7 @@
     }
 
     &-footer {
-      padding: 12px 0;
+      padding: 0.8rem 0;
     }
   }
-}
-
-@media (max-width: 768px) {
-  .carousel-inner .carousel-item > div {
-    display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-    display: block;
-  }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-/* display 3 */
-@media (min-width: 768px) {
-  .carousel-inner .carousel-item-right.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(33.333%);
-  }
-
-  .carousel-inner .carousel-item-left.active,
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-33.333%);
-  }
-}
-
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left {
-  transform: translateX(0);
 }

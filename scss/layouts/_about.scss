@@ -3,16 +3,16 @@
   background-size: cover;
   background-position: center center;
 
-  &__heading {
-    margin-bottom: 15px;
-    font-size: 42px;
-  }
-
   &__body {
     background: $primary;
-    padding: 50px 50px 80px;
+    padding: 3rem 3rem 5rem;
     color: $white;
-    margin-top: 100px;
+    margin-top: 6.3rem;
+  }
+
+  &__heading {
+    margin-bottom: 1rem;
+    font-size: 2.7rem;
   }
 
   &__btn {

@@ -8,7 +8,7 @@
   // header, navbar
   .header {
     &__nav {
-      padding: 8px 7px;
+      padding: 0.5rem 0.45rem;
     }
 
     &__navbar-collapse {
@@ -83,7 +83,7 @@
 
   // search section
   .search {
-    padding: 65px 0;
+    padding: 4rem 0;
     background: url("../img/search/search_mobile_bg.png") no-repeat left top;
     background-size: cover;
 
@@ -94,13 +94,13 @@
 
   // industry section
   .industry__item {
-    padding: 65px 50px 40px;
+    padding: 4rem 0 2.5rem;
   }
 
   // last roles
   .roles {
     background: #f5f4fc;
-    padding: 65px 0 10px;
+    padding: 4rem 0 0.65rem;
   }
 
   // about
@@ -116,13 +116,13 @@
 
     &__body {
       margin-top: 0;
-      padding: 45px 15px;
+      padding: 2.7rem 1rem;
     }
   }
 
   // refer
   .refer {
-    padding: 50px 0;
+    padding: 3rem 0;
 
     &__btn {
       text-transform: uppercase;
@@ -131,19 +131,19 @@
 
   // footer
   .footer {
-    padding: 40px 15px;
+    padding: 2.5rem 1rem;
 
     &__heading {
-      font-size: 27px;
+      font-size: 1.7rem;
     }
 
     &__text {
-      font-size: 25px;
+      font-size: 1.5rem;
     }
 
     &__copyright {
-      margin-bottom: 16px;
-      font-size: 19px;
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
     }
   }
 
@@ -152,7 +152,7 @@
     &__form {
       max-width: 100%;
       right: 0;
-      top: 100px;
+      top: 6.3rem;
       border-radius: 0;
     }
   }
@@ -171,6 +171,6 @@
 
   .footer__heading,
   .footer__text {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
