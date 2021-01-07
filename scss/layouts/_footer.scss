@@ -10,7 +10,7 @@
 
   &__heading {
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #615b9b;
   }
 
@@ -29,12 +29,14 @@
   }
 
   &__text {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 0;
+    color: #ededed;
   }
 
   &__copyright {
     margin-bottom: 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: #ededed;
   }
 }

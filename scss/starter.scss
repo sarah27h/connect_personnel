@@ -128,11 +128,6 @@ body {
 }
 
 //
-//  typography
-//
-@import "base/typography";
-
-//
 //  layouts
 //
 @import "layouts/header";
@@ -145,3 +140,8 @@ body {
 @import "layouts/footer";
 @import "layouts/quick-search";
 @import "abstracts/mediaquery";
+
+//
+//  typography
+//
+@import "base/typography";

@@ -34,41 +34,53 @@ body {
 p {
   font-family: $main-font;
   font-weight: 400;
-  font-size: 22px;
+  color: #4f5b60;
+  @include font-size(22px);
 }
 
-h1 {
-  font-family: $main-font;
-  font-weight: 100;
-  font-size: 66px;
-}
-
-h2 {
-  font-family: $main-font;
-  font-weight: 400;
-  font-size: 54px;
-}
-
-h3 {
-  font-family: $main-font;
-  font-weight: 700;
-  font-size: 40px;
-}
-
-h4 {
-  font-family: $main-font;
-  font-weight: 700;
-  font-size: 32px;
-}
-
-h5 {
-  font-family: $main-font;
-  font-weight: 400;
-  font-size: 26px;
-}
-
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
   font-family: $main-font;
+}
+
+// font-sizes
+.c-h1-size {
+  @include font-size(66px);
+}
+
+.c-h2-size {
+  @include font-size(54px);
+}
+
+.c-h3-size {
+  @include font-size(40px);
+}
+
+.c-h4-size {
+  @include font-size(32px);
+}
+
+.c-h5-size {
+  @include font-size(26px);
+}
+
+.c-h6-size {
+  @include font-size(20px);
+}
+
+// font-weight
+.weight-100 {
+  font-weight: 100;
+}
+
+.weight-400 {
   font-weight: 400;
-  font-size: 20px;
+}
+
+.weight-700 {
+  font-weight: 700;
 }
