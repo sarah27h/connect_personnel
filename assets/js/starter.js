@@ -14,13 +14,12 @@
 // Import just what we need
 
 // If you're importing tooltips or popovers, be sure to include our Popper.js dependency
-import "../../node_modules/popper.js/dist/popper.min.js";
+import "../modules/popper.min.js";
 
-import "../../node_modules/bootstrap/js/dist/util.js";
+import "../modules/util.js";
 // import "../../node_modules/bootstrap/js/dist/modal.js";
-import "../../node_modules/bootstrap/js/dist/dropdown.js";
-import "../../node_modules/bootstrap/js/dist/collapse.js";
-import "../../node_modules/bootstrap/js/dist/carousel.js";
+import "../modules/dropdown.js";
+import "../modules/collapse.js";
 // import "../../node_modules/bootstrap/js/dist/tooltip.js";
 // import "../../node_modules/bootstrap/js/dist/popover.js";
 
